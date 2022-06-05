@@ -19,4 +19,4 @@ jobs:
       - name: Build optimized web application
         run: |
           npm ci
-          npm run build
+          npm run dev
