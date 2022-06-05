@@ -19,5 +19,11 @@ jobs:
       - run: npm run build --if-present
       - run: npm test
       - run: npm run style:lint
+  slint:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
       - run: npm run style:lint
-      - run: npm run style:prettier
