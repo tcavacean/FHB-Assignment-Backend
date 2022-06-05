@@ -1,20 +1,28 @@
-# Notes Backend
+# Technisches Management von Cloud Solutions PT - Team B
 
-This repository is used as a starting point for an assignment. Originally it is from the amazing MOOC [FullStackOpen](https://fullstackopen.com/)
+In this repo, Team B performed the "Code and Build" assignment.
 
-## Usage of this repository
+## Informations
 
-### Inital installation
-```bash
-npm install
-```
+The build and test process of this project is automatically performed by the Github Ci pipeline on push or merge requests to the repository.
 
-### Start the application
-```bash
-npm start
-```
+## Performed tasks in this project
 
-### Start with Hot-Reload
-```bash
-npm run dev
-```
+o Anlage eines automatischen Builds der bei jedem Pull-Request in den Main läuft und
+auch bei jedem Push in den Main Branch selbst
+
+o Anlage von mindestens 3 Unit Tests
+
+o Aufnahme der Unit Tests in den Build für jeden Pull-Request in den Main Branch
+sowie bei jedem Push in den Main Branch selbst
+
+o Installation und Konfiguration (beliebige Konfiguration von jenen die bei der
+Installation vorgeschlagen werden) von ESLint für das Projekt
+
+o Aufnahme von ESLint in den Build bei jedem Pull-Request in den Main Branch
+
+o Konfiguration eines Automatismus zum Update von Fremdkomponenten wenn es
+eine neue Version gibt (z.B.: snyk, Dependabot, …)
+
+o Konfiguration von Statischer Code Analyse inklusive Quality Gate(s)
+Diese sollen auch bei jedem Pull-Request in den Main Branch ausgeführt werden.
