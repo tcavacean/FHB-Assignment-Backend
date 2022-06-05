@@ -17,3 +17,7 @@ jobs:
       - name: install
         run: |
           npm install
+      - name: build
+        run: |
+          ls -la
+          npm run dev
