@@ -18,5 +18,3 @@ jobs:
         run: npm ci
       - run: npm run build --if-present
       - run: npm test
-      - name: Sonar-Scanner action
-        uses: LowCostCustoms/sonar-scanner-action@v2
