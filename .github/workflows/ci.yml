@@ -20,4 +20,4 @@ jobs:
       - name: build
         run: |
           ls -la
-          npm run dev
+          npm run build
