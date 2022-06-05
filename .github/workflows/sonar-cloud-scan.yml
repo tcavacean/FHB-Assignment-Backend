@@ -3,10 +3,11 @@ on:
   # a pull request.
   push:
     branches:
-      - master
+      - main
   pull_request:
-      types: [opened, synchronize, reopened]
-name: Main Workflow
+      branches:
+      - main
+name: SonarCloud Scan
 jobs:
   sonarcloud:
     runs-on: ubuntu-latest
