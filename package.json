@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "mocha"
+    "test": "mocha",
+    "style:lint": "eslint '**/*.{js,jsx,ts,tsx}'"
   },
   "author": "",
   "license": "ISC",
