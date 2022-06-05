@@ -10,13 +10,10 @@ jobs:
   build-test:
     runs-on: "ubuntu-latest"
     steps:
-      - name: Checkout repository
-        uses: "actions/checkout@v2"
-      - name: Setup Node-Environment
-        uses: "actions/setup-node@v2"
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: '12'
-      - name: Build optimized web application
+      - name: install
         run: |
-          npm ci
-          npm run dev
+          npm install
