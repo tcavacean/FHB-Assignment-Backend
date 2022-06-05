@@ -9,7 +9,7 @@ describe("User Service Unit Tests", function () {
 });
 
 describe("User 2 Service Unit Tests", function () {
-  describe("Save User functionality", function () {
+  describe("Save Use 2 functionality", function () {
     it("should successfully add a user if the number of users in the DB with the same profiled is zero", async function () {
     });
     it("should throw an error if the number of users with the same profileId is not zero", async function () {
@@ -18,7 +18,7 @@ describe("User 2 Service Unit Tests", function () {
 });
 
 describe("Use 3 Service Unit Tests", function () {
-  describe("Save User functionality", function () {
+  describe("Save Use 3  functionality", function () {
     it("should successfully add a user if the number of users in the DB with the same profiled is zero", async function () {
     });
     it("should throw an error if the number of users with the same profileId is not zero", async function () {
