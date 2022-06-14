@@ -7,8 +7,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "mocha",
-    "style:lint": "eslint '**/*.{js,jsx,ts,tsx}'",
-    "build": "ng build"
+    "style:lint": "eslint '**/*.{js,jsx,ts,tsx}'"
   },
   "author": "",
   "license": "ISC",
